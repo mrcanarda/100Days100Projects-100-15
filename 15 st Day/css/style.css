@@ -1,0 +1,74 @@
+/********************
+**** GLOBAL VARIABLES *
+*******************/
+
+:root {
+  --Moderate-cyan: hsl(176, 50%, 47%);
+  --Dark-cyan: hsl(176, 72%, 28%);
+  --Black: hsl(0, 0%, 0%);
+  --Dark-gray: hsl(0, 0%, 48%);
+}
+
+/********************
+**** FONT STYLE *
+*******************/
+
+/* 
+font-family: 'Commissioner', sans-serif;
+400, 500, 700
+*/
+
+/********************
+**** STYLE *********s
+*******************/
+
+/********************
+**** NAV *********
+*******************/
+
+nav {
+  background-image: url(../images/image-hero-desktop.jpg);
+  height: 40rem;
+}
+
+.navigation {
+  display: flex;
+  gap: 10rem;
+}
+
+/********************
+**** LOGO *********
+*******************/
+
+.img__logo {
+  margin-top: 2rem;
+  margin-left: 10rem;
+}
+
+/********************
+**** LINKS *********
+*******************/
+
+.nav__link {
+  margin-top: 2rem;
+  margin-left: 76rem;
+}
+
+.links {
+  height: 1rem;
+}
+.links:link,
+.links:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  width: 100%;
+  font-size: 1.6rem;
+  font-family: "Commissioner", sans-serif;
+}
+
+.links:hover,
+.links:active {
+  color: #fff;
+}
