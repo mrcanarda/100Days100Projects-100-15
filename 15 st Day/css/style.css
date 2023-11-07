@@ -72,3 +72,84 @@ nav {
 .links:active {
   color: #fff;
 }
+
+/********************
+**** FRIST PAGE ****
+*******************/
+
+.first_page > h1 {
+  font-size: 3rem;
+  font-family: "Commissioner", sans-serif;
+}
+
+.first_page > p {
+  font-size: 1.4rem;
+  font-family: "Commissioner", sans-serif;
+  letter-spacing: 1.2px;
+  color: var(--Dark-gray);
+  margin-top: 1.2rem;
+}
+
+/********************
+**** FRIST PAGE ***
+******* BUTTONS ****
+*******************/
+
+.buttons {
+  display: flex;
+  gap: 30rem;
+  margin-top: 4rem;
+}
+
+.book__ {
+  height: 5rem;
+  width: 18rem;
+  border-radius: 26px;
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+  font-family: "Commissioner", sans-serif;
+  font-weight: 700;
+  background-color: var(--Moderate-cyan);
+  color: #fff;
+}
+
+button.book__:hover {
+  background-color: var(--Dark-cyan);
+}
+
+.book__marker {
+  height: 5rem;
+  width: 18rem;
+  border-radius: 26px;
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+  font-family: "Commissioner", sans-serif;
+  font-weight: 700;
+  background-color: #f1f1f1;
+  color: var(--Dark-gray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+
+button.book__marker :hover {
+  background-color: #f1f1f1;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.bookmark__logo {
+  width: 5rem;
+  margin-right: 0.8rem;
+}
+
+button.bookmark__logo:hover {
+  opacity: 0.5;
+}
+
+.button__paragraph {
+  margin-right: 5rem;
+}

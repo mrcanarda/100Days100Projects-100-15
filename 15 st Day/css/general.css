@@ -11,6 +11,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
+  background-color: #f1f1f1;
   justify-content: center;
 }
 
@@ -28,4 +29,30 @@ body {
 
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "DM Sans", sans-serif;
+}
+
+.first_page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 30rem;
+  background-color: #fff;
+  width: 75rem;
+  height: 24rem;
+  left: 34rem;
+}
+
+.first__page__img {
+  position: absolute;
+  bottom: 21rem;
 }
