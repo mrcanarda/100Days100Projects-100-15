@@ -50,9 +50,23 @@ body {
   width: 75rem;
   height: 24rem;
   left: 34rem;
+  border-radius: 6px;
 }
 
 .first__page__img {
   position: absolute;
   bottom: 21rem;
+}
+
+.two__page {
+  border-radius: 6px;
+  margin-top: 16rem;
+  width: 75rem;
+  height: 24rem;
+}
+
+.edit__page__two {
+  margin-top: 4rem;
+  margin-left: 4rem;
+  gap: 2rem;
 }

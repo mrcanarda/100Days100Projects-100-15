@@ -153,3 +153,68 @@ button.bookmark__logo:hover {
 .button__paragraph {
   margin-right: 5rem;
 }
+
+/********************
+**** TWICE PAGE ****
+*******************/
+
+.two__page {
+  background-color: #fff;
+}
+
+.preis {
+  border-right: 0.2px solid hsl(0, 0%, 48%);
+  width: 20rem;
+}
+
+.total__backers {
+  border-right: 0.2px solid hsl(0, 0%, 48%);
+  width: 20rem;
+}
+
+.preis > h1 {
+  font-family: "Commissioner", sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.preis > p {
+  margin-top: 1rem;
+  font-family: "Commissioner", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--Dark-gray);
+}
+
+.total__backers > h1 {
+  font-family: "Commissioner", sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.total__backers > p {
+  margin-top: 1rem;
+  font-family: "Commissioner", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--Dark-gray);
+}
+
+.days__ > h1 {
+  font-family: "Commissioner", sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.days__ > p {
+  margin-top: 1rem;
+  font-family: "Commissioner", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--Dark-gray);
+}
+
+.line {
+  width: 25rem;
+  background-color: red;
+}
