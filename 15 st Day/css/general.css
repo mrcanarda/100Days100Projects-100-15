@@ -62,11 +62,76 @@ body {
   border-radius: 6px;
   margin-top: 16rem;
   width: 75rem;
-  height: 24rem;
+  height: 22rem;
 }
 
 .edit__page__two {
   margin-top: 4rem;
   margin-left: 4rem;
   gap: 2rem;
+}
+
+.page__two__ {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 75rem;
+  border-radius: 6px;
+  margin-top: 2rem;
+}
+
+/*
+.about__this {
+}
+*/
+
+/********************
+**** BAMBOO ********
+*******************/
+
+.bamboo__stand {
+  background-color: #fff;
+  width: 67rem;
+  border-radius: 6px;
+  margin-left: 3rem;
+  margin-top: 3rem;
+  padding-top: 3rem;
+  padding-left: 3rem;
+  padding-right: 1rem;
+  border: 0.5px solid hsl(0, 0%, 48%);
+}
+
+.bamboo__ein {
+  display: flex;
+  gap: 35.5rem;
+}
+
+.bamboo__zwei {
+  display: flex;
+  gap: 36rem;
+  margin-top: 2rem;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.bamboo__number {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.black__edition {
+  gap: 31rem;
+}
+
+.black__number {
+  gap: 37rem;
+}
+
+.mahogany {
+  gap: 24rem;
+}
+
+.mahogany__sd {
+  gap: 39rem;
 }

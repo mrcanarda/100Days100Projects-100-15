@@ -215,6 +215,119 @@ button.bookmark__logo:hover {
 }
 
 .line {
-  width: 25rem;
-  background-color: red;
+  border-radius: 10px;
+  margin-left: 3rem;
+  margin-top: 5rem;
+  width: 50rem;
+  background-color: var(--Moderate-cyan);
+}
+
+.line > p {
+  color: var(--Moderate-cyan);
+}
+
+.line__white {
+  background-color: #f1f1f1;
+  width: 10rem;
+  position: absolute;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  bottom: 0.4%;
+  right: 32.3%;
+}
+
+.line__white > p {
+  color: #f1f1f1;
+}
+
+/********************
+**** ABOUT THIS ****
+*******************/
+
+.about__this > h1 {
+  font-size: 1.6rem;
+  font-family: "Commissioner", sans-serif;
+  margin-left: 3rem;
+  margin-top: 5rem;
+}
+
+.first__paragraph {
+  font-size: 1.6rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  line-height: 1.4;
+  letter-spacing: 0.2px;
+  margin-right: 3rem;
+  font-family: "Commissioner", sans-serif;
+  color: var(--Dark-gray);
+}
+
+.two__paragraph {
+  font-size: 1.6rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  line-height: 1.4;
+  letter-spacing: 0.2px;
+  margin-right: 3rem;
+  font-family: "Commissioner", sans-serif;
+  color: var(--Dark-gray);
+}
+
+/********************
+**** BAMBOO ********
+*******************/
+
+.bamboo__price {
+  color: var(--Dark-cyan);
+  font-size: 1.4rem;
+  font-family: "Commissioner", sans-serif;
+}
+
+.bamboo__ein > h2 {
+  font-family: "Commissioner", sans-serif;
+  font-size: 2rem;
+}
+
+.bamboo__exc {
+  margin-top: 2rem;
+  font-family: "Commissioner", sans-serif;
+  color: var(--Dark-gray);
+  font-size: 1.4rem;
+  letter-spacing: 0.2px;
+  line-height: 1.4;
+}
+
+.bamboo__number > h1 {
+  font-size: 3rem;
+  font-family: "Commissioner", sans-serif;
+}
+
+.bamboo__number > p {
+  color: var(--Dark-gray);
+  font-size: 1.2rem;
+}
+
+.mahogany__reverd {
+  background-color: hsl(0, 1%, 76%);
+}
+
+button.mahogany__reverd:hover {
+  background-color: hsl(0, 1%, 76%);
+}
+
+.mahogany__page {
+  opacity: 0.5;
+  margin-bottom: 4rem;
+}
+
+.coddedby {
+  margin-top: 2rem;
+  text-align: center;
+  font-family: "Commissioner", sans-serif;
+  margin-bottom: 2rem;
+}
+
+footer > span {
+  font-size: 2rem;
+  font-family: "Commissioner", sans-serif;
 }
