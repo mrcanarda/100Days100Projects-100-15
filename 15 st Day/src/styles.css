@@ -1,0 +1,62 @@
+@tailwind base;
+
+@tailwind components;
+
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('../fonts/Commissioner-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('../fonts/Commissioner-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('../fonts/Commissioner-Bold.ttf');
+    font-weight: 700;
+}
+
+picture::before {
+    content: "";
+    position: absolute;
+    background-image: linear-gradient(rgba(0, 0, 0, .4) 10%, rgba(255, 255, 255, 0) 30%);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+div.pledge.h-32 {
+    transition: height .5s, padding-top .5s, padding-bottom .5s;
+}
+
+div.pledge.h-0 {
+    transition: height .3s, padding-top .3s, padding-bottom .3s;
+}
+
+@media (min-width: 1024px) {
+    .bookmark:hover circle {
+        fill: hsl(0, 0%, 48%);
+        transition: fill .3s;
+    }
+
+    .close-modal:hover path {
+        opacity: 1;
+        transition: opacity .3s;
+    }
+
+    .title-product:hover~span {
+        border-color: hsl(176, 50%, 47%);
+        transition: border-color .3s;
+    }
+}
+
+@tailwind utilities;
